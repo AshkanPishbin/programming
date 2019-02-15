@@ -1,6 +1,6 @@
-package exercise.week5.ex3;
+package exercises.week5.ex3;
 
-import exercise.week5.ex1.Shape;
+import exercises.week5.ex1.Shape;
 
 import java.util.Arrays;
 import java.util.List;

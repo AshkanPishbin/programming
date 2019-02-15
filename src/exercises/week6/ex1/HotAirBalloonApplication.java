@@ -1,4 +1,4 @@
-package exercise.week6.ex1;
+package exercises.week6.ex1;
 
 public class HotAirBalloonApplication {
 

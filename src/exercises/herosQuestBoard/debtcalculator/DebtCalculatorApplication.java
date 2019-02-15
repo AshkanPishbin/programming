@@ -1,4 +1,4 @@
-package challenge.debtcalculator;
+package exercises.herosQuestBoard.debtcalculator;
 
 import java.util.Arrays;
 import java.util.List;

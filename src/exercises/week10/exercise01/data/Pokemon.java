@@ -1,4 +1,4 @@
-package week10.exercise01.data;
+package exercises.week10.exercise01.data;
 
 public class Pokemon {
 

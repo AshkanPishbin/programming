@@ -1,4 +1,4 @@
-package exercise.week6.ex5;
+package exercises.week6.ex5;
 
 public class MultiplyOperator implements Operator {
 

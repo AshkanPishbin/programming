@@ -1,4 +1,4 @@
-package exercise.week6.ex2;
+package exercises.week6.ex2;
 
 public abstract class IceCream {
 

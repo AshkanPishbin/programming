@@ -1,4 +1,4 @@
-package exercise.week8.robomime;
+package exercises.week8.robomime;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

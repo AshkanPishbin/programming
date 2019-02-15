@@ -1,4 +1,4 @@
-package exercise.week6.ex4;
+package exercises.week6.ex4;
 
 public class Cent20 extends Money {
 

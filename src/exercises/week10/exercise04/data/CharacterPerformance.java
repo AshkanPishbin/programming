@@ -1,4 +1,4 @@
-package week10.exercise04.data;
+package exercises.week10.exercise04.data;
 
 public class CharacterPerformance {
 

@@ -1,4 +1,4 @@
-package reflection.week5;
+package reflections.week5;
 
 import org.junit.jupiter.api.Test;
 

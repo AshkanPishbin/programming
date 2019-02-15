@@ -1,8 +1,8 @@
-package week10.exercise01.logic;
+package exercises.week10.exercise01.logic;
 
 
-import week10.exercise01.data.Pokemon;
-import week10.exercise01.reader.FileReader;
+import exercises.week10.exercise01.data.Pokemon;
+import exercises.week10.exercise01.reader.FileReader;
 
 import java.util.List;
 import java.util.stream.Collectors;

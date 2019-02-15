@@ -1,4 +1,4 @@
-package exercise.week8.robomime;
+package exercises.week8.robomime;
 
 import java.util.ArrayList;
 import java.util.Arrays;

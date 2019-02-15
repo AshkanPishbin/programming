@@ -1,4 +1,4 @@
-package challenge.debtcalculator;
+package exercises.herosQuestBoard.debtcalculator;
 
 public class Person {
 

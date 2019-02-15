@@ -1,4 +1,4 @@
-package reflection.week7.prepared;
+package reflections.week7.prepared;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ public class Company {
     private FileReader reader = new FileReader();
 
     public List<Employee> getEmployees() {
-        List<String> lines = reader.asLines("reflection/week7/employees.csv");
+        List<String> lines = reader.asLines("reflections/week7/employees.csv");
         removeHeader(lines);
         return toEmployees(lines);
     }

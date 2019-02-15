@@ -1,7 +1,7 @@
-package exercise.week3.ex2;
+package exercises.week3.ex2;
 
 
-import exercise.week3.ex1.Customer;
+import exercises.week3.ex1.Customer;
 
 public class InsuranceApplication {
     public static void main(String[] args) {

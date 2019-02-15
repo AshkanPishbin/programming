@@ -1,4 +1,4 @@
-package exercise.week8.robomime;
+package exercises.week8.robomime;
 
 import exercise.week4.ex9.FileReader;
 
@@ -10,7 +10,7 @@ public class Sensor {
     private Decryptor decryptor = new Decryptor();
 
     public List<String> scan() {
-        List<String> lines = reader.asLines("exercise/week8/robomime/robomime.txt");
+        List<String> lines = reader.asLines("exercises/week8/robomime/robomime.txt");
         return decryptor.decrypt(lines);
     }
 

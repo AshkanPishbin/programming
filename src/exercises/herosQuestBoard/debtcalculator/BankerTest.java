@@ -1,4 +1,4 @@
-package challenge.debtcalculator;
+package exercises.herosQuestBoard.debtcalculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

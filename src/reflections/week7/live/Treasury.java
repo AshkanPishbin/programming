@@ -1,4 +1,4 @@
-package reflection.week7.live;
+package reflections.week7.live;
 
 public class Treasury {
 

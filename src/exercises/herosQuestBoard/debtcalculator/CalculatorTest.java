@@ -1,4 +1,4 @@
-package challenge.debtcalculator;
+package exercises.herosQuestBoard.debtcalculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -16,7 +16,7 @@ class CalculatorTest {
         hala.setPaid(10.00);
         Person mohamed = new Person("Mohamed");
         mohamed.setPaid(20.00);
-        Person tamara = new Person("Tamara");
+        Person tamara = new exercises.herosQuestBoard.debtcalculator.Person("Tamara");
         tamara.setPaid(30.00);
         return Arrays.asList(hala, mohamed, tamara);
     }

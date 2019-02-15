@@ -1,4 +1,4 @@
-package reflection.week7.live;
+package reflections.week7.live;
 
 import exercise.week4.ex9.FileReader;
 
@@ -11,7 +11,7 @@ public class WorkerReader {
     private FileReader reader = new FileReader();
 
     public List<Worker> getWorkers() {
-        List<String> lines = reader.asLines("reflection/week7/employees.csv");
+        List<String> lines = reader.asLines("reflections/week7/employees.csv");
         lines.remove(0);
         return toWorkers(lines);
 

@@ -1,4 +1,4 @@
-package reflection.week7.live;
+package reflections.week7.live;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

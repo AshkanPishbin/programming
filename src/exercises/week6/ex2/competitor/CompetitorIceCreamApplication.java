@@ -1,8 +1,8 @@
-package exercise.week6.ex2.competitor;
+package exercises.week6.ex2.competitor;
 
-import exercise.week6.ex2.ConeIceCream;
-import exercise.week6.ex2.CupIceCream;
-import exercise.week6.ex2.IceCream;
+import exercises.week6.ex2.ConeIceCream;
+import exercises.week6.ex2.CupIceCream;
+import exercises.week6.ex2.IceCream;
 
 public class CompetitorIceCreamApplication {
 

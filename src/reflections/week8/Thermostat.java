@@ -1,4 +1,4 @@
-package reflection.week8;
+package reflections.week8;
 
 import java.util.function.Function;
 import java.util.function.Predicate;

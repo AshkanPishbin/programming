@@ -1,7 +1,7 @@
-package exercise.week5.ex5;
+package exercises.week5.ex5;
 
-import exercise.week5.ex4.Superhero;
-import exercise.week5.ex4.SuperheroCaller;
+import exercises.week5.ex4.Superhero;
+import exercises.week5.ex4.SuperheroCaller;
 
 public class AdvancedSuperheroApplication {
 

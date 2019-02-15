@@ -1,4 +1,4 @@
-package exercise.week6.ex5;
+package exercises.week6.ex5;
 
 import java.util.Arrays;
 import java.util.List;

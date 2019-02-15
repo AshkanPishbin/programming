@@ -1,4 +1,4 @@
-package challenge.dragoncurve;
+package exercises.herosQuestBoard.dragoncurve;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

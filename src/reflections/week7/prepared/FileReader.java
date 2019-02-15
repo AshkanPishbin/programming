@@ -1,4 +1,4 @@
-package reflection.week7.prepared;
+package reflections.week7.prepared;
 
 import java.io.IOException;
 import java.net.URI;

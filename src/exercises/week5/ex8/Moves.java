@@ -1,4 +1,4 @@
-package exercise.week5.ex8;
+package exercises.week5.ex8;
 
 import java.util.*;
 

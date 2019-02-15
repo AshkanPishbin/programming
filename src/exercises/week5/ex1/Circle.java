@@ -1,4 +1,4 @@
-package exercise.week5.ex1;
+package exercises.week5.ex1;
 
 public class Circle implements Shape{
 

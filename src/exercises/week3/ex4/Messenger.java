@@ -1,4 +1,4 @@
-package exercise.week3.ex4;
+package exercises.week3.ex4;
 
 public class Messenger {
 

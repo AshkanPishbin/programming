@@ -1,6 +1,6 @@
-package reflection.week5;
+package reflections.week5;
 
-import exercise.week5.ex6.Furniture;
+import exercises.week5.ex6.Furniture;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package exercise.week5.ex7;
+package exercises.week5.ex7;
 
 public class Scissors implements Move {
 

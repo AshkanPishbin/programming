@@ -1,4 +1,4 @@
-package challenge.katabank;
+package exercises.herosQuestBoard.katabank;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ public class DigitTranslator {
 
     private List<Digit> loadDigits() {
         List<Digit> digits = new ArrayList<>();
-        List<String> lines = fileReader.asLines("challenge/katabank/sample.csv");
+        List<String> lines = fileReader.asLines("exercises/herosQuestBoard/katabank/sample.csv");
         Line line = new LineIterator(lines).next();
         DigitIterator iterator = new DigitIterator(line);
         while (iterator.hasNext()) {

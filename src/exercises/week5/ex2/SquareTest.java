@@ -1,7 +1,6 @@
-package exercise.week5.ex2;
+package exercises.week5.ex2;
 
-import exercise.week5.ex1.Circle;
-import exercise.week5.ex1.Shape;
+import exercises.week5.ex1.Shape;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

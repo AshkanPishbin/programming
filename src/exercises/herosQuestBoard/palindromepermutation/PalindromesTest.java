@@ -1,4 +1,4 @@
-package challenge.palindromepermutation;
+package exercises.herosQuestBoard.palindromepermutation;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package challenge.katabank;
+package exercises.herosQuestBoard.katabank;
 
 import java.util.List;
 

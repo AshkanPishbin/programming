@@ -1,8 +1,8 @@
-package week10.exercise03.logic;
+package exercises.week10.exercise03.logic;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import week10.exercise03.data.SmsPerformance;
+import exercises.week10.exercise03.data.SmsPerformance;
 
 import java.util.List;
 import java.util.Optional;
@@ -52,8 +52,9 @@ public class SmsPerformanceTest {
         String actual = performances.stream()
                 .filter(e -> e.getLable().equals("ham"))
                 .map(e -> e.getMessage())
-                .map(e -> e.split(" "))
+                .map(e -> e.split(""))
                 .flatMap(Stream::of)
+                .filter(e -> Character.isLetter(e.charAt(0)))
                 .collect(Collectors.groupingBy(e -> e, Collectors.counting()))
                 .entrySet().stream()
                 .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
@@ -69,7 +70,7 @@ public class SmsPerformanceTest {
     void testLongestSpamMessage() {
         Optional<Integer> actual = performances.stream()
                 .filter(e -> e.getLable().equals("spam"))
-                .map(SmsPerformance::getLable)
+                .map(SmsPerformance::getMessage)
                 .map(String::length)
                 .sorted((e1, e2) -> e2.compareTo(e1))
                 .findFirst();

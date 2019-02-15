@@ -1,8 +1,8 @@
-package reflection.week5;
+package reflections.week5;
 
-import exercise.week5.ex6.AddShelf;
-import exercise.week5.ex6.AddTop;
-import exercise.week5.ex6.Step;
+import exercises.week5.ex6.AddShelf;
+import exercises.week5.ex6.AddTop;
+import exercises.week5.ex6.Step;
 
 import java.util.Arrays;
 import java.util.List;

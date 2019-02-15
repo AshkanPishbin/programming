@@ -1,4 +1,4 @@
-package challenge.katabank;
+package exercises.herosQuestBoard.katabank;
 
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +13,7 @@ class FileReaderTest {
 
     @Test
     void testAsLines() {
-        List<String> lines = fileReader.asLines("challenge/katabank/accounts.csv");
+        List<String> lines = fileReader.asLines("exercises/herosQuestBoard/katabank/accounts.csv");
 
         assertFalse(lines.isEmpty());
         assertEquals(4, lines.size());

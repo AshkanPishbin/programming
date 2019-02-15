@@ -1,4 +1,4 @@
-package reflection.week6.easy;
+package reflections.week6.easy;
 
 public class AutomaticCar extends Car {
 

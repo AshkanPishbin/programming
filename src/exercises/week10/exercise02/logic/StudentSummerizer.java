@@ -1,14 +1,14 @@
-package week10.exercise02.logic;
+package exercises.week10.exercise02.logic;
 
-import week10.exercise02.data.AverageData;
-import week10.exercise02.data.StudentsPerformance;
+import exercises.week10.exercise02.data.AverageData;
+import exercises.week10.exercise02.data.StudentsPerformance;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 public class StudentSummerizer {
-    List<StudentsPerformance> studentsPerformances = new week10.exercise02.logic.PerformanceReader().getPerformance();
+    List<StudentsPerformance> studentsPerformances = new exercises.week10.exercise02.logic.PerformanceReader().getPerformance();
 
     public Map<String, Long> displayParentEducationLevelAppearances() {
         return studentsPerformances.stream()

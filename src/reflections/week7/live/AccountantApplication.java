@@ -1,9 +1,9 @@
-package reflection.week7.live;
+package reflections.week7.live;
 
 public class AccountantApplication {
 
     public static void main(String[] args) {
-        reflection.week7.live.Accountant accountant = new Accountant();
+        reflections.week7.live.Accountant accountant = new Accountant();
         Data data = accountant.pay();
 
         System.out.println("Total amount paid: " + data.getTotalPaid());

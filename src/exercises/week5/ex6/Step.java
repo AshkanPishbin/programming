@@ -1,4 +1,4 @@
-package exercise.week5.ex6;
+package exercises.week5.ex6;
 
 public interface Step {
 

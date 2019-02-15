@@ -1,6 +1,6 @@
-package week10.exercise02.data;
+package exercises.week10.exercise02.data;
 
-import week10.exercise02.logic.StudentSummerizer;
+import exercises.week10.exercise02.logic.StudentSummerizer;
 
 import java.util.List;
 import java.util.Map;

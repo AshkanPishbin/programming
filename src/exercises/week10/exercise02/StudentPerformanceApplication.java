@@ -1,7 +1,7 @@
-package week10.exercise02;
+package exercises.week10.exercise02;
 
 
-import week10.exercise02.data.StudentsDisplay;
+import exercises.week10.exercise02.data.StudentsDisplay;
 
 public class StudentPerformanceApplication {
 

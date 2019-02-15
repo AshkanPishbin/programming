@@ -1,4 +1,4 @@
-package challenge.katabank;
+package exercises.herosQuestBoard.katabank;
 
 
 public class DigitIterator {

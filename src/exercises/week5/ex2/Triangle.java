@@ -1,6 +1,6 @@
-package exercise.week5.ex2;
+package exercises.week5.ex2;
 
-import exercise.week5.ex1.Shape;
+import exercises.week5.ex1.Shape;
 
 public class Triangle implements Shape {
 

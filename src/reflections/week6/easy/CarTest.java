@@ -1,4 +1,4 @@
-package reflection.week6.easy;
+package reflections.week6.easy;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

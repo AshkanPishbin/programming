@@ -1,9 +1,7 @@
-package exercise.week6.ex5;
+package exercises.week6.ex5;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CreditTest {
 

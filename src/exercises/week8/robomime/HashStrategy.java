@@ -1,4 +1,4 @@
-package exercise.week8.robomime;
+package exercises.week8.robomime;
 
 public class HashStrategy implements DecryptionStrategy {
 

@@ -1,4 +1,4 @@
-package challenge.dragoncurve;
+package exercises.herosQuestBoard.dragoncurve;
 
 import java.util.function.IntFunction;
 import java.util.function.IntPredicate;

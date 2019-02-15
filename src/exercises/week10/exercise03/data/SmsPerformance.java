@@ -1,4 +1,4 @@
-package week10.exercise03.data;
+package exercises.week10.exercise03.data;
 
 public class SmsPerformance {
     private String lable;

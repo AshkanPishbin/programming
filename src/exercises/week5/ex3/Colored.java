@@ -1,4 +1,4 @@
-package exercise.week5.ex3;
+package exercises.week5.ex3;
 
 public interface Colored {
 
