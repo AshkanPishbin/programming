@@ -1,13 +1,12 @@
 package at.nacs.primeadder.controller;
 
-import lombok.Data;
 import org.springframework.stereotype.Component;
 
 import java.util.stream.IntStream;
 
 @Component
-@Data
 public class Primes {
+
     public static boolean isPrime(int number) {
         if (number < 2) {
             return false;
