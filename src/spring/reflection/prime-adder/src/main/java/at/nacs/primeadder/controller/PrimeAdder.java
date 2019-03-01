@@ -1,15 +1,17 @@
-package at.nacs.primenumber.controller;
+package at.nacs.primeadder.controller;
 
-    @Component
-    @Value
-    public class PrimeAdder {
+import lombok.Value;
+import org.springframework.stereotype.Component;
 
-        PrimeCollector primeCollector;
+import java.util.List;
+import java.util.stream.IntStream;
 
-        public long calculateSum(List<Integer> primeNumbers) {
-            return primeNumbers.stream()
-                    .mapToInt(Integer::intValue)
-                    .sum();
-        }
+@Component
+public class PrimeAdder {
+    public int calculateSum(int limit) {
+        return IntStream.iterate(2, e -> e + 1)
+                .filter(Primes::isPrime)
+                .limit(limit)
+                .sum();
     }
 }
