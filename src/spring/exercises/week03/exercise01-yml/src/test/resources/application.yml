@@ -1,0 +1,26 @@
+name:
+  word: fantastic
+fantastic:
+  number: 369
+days:
+  week: saturday, sunday, monday, tuesday, wednesday, thursday, friday
+bookshop:
+  books:
+    harrypotter: 3
+    thefoundation: 2
+    thelordftherings: 4
+entertainment:
+  sauna:
+   availableseats: 9
+   temperature: 46
+specification:
+  ballerinas[0]:
+   name: natalie
+   quality: 5
+  ballerinas[1]:
+   name: shideh
+   quality: 3
+  ballerinas[2]:
+   name: emili
+   quality: 1
+
