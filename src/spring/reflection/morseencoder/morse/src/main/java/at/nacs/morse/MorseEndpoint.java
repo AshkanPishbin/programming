@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/morse")
 public class MorseEndpoint {
     @PostMapping
-    String letter(@RequestBody String letter) {
-        return null;
+    String encode(@RequestBody String letter) {
+
+        return letter;
 
     }
 }
