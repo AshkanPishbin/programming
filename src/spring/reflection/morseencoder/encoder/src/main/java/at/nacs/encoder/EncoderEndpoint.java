@@ -10,14 +10,12 @@ import org.springframework.web.client.RestTemplate;
 @RequiredArgsConstructor
 public class EncoderEndpoint {
 
-    private final RestTemplate restTemplate;
-
-    @Value("${morse}")
-    private String url;
+    private final EncoderClient encoderClient;
 
     @PostMapping()
     String addMessage(@RequestBody String message) {
-        return restTemplate.postForObject(url, message, String.class);
+        return encoderClient.getEncodedMessage(message);
+
     }
 }
 
