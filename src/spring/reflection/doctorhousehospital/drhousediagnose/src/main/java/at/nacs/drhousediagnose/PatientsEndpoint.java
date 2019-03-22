@@ -1,14 +1,16 @@
 package at.nacs.drhousediagnose;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping
+@RequestMapping("/patients")
 @RequiredArgsConstructor
-public class DiagnoseEndpoint {
-    private final Patient patient;
+public class PatientsEndpoint {
+    private final DrHouse drHouse;
 
-
+    @PostMapping
+    public Patient getPatient(@RequestBody Patient patient) {
+        return drHouse.visit(patient);
+    }
 }
